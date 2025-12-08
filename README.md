@@ -10,7 +10,7 @@ Atualmente estudando **AWS**, aprofundando em **Python para automações** e exp
 ### 🚀 Tecnologias e Ferramentas
 
 **Linguagens & Stack**
-- Python, SQL, JavaScript  
+- Python, SQL
 - Frameworks: React, Node.js  
 - Dados & Automação: Pandas, NumPy, Selenium, APIs  
 - Cloud: AWS (EC2, S3, Lambda, RDS)  
@@ -28,21 +28,11 @@ Atualmente estudando **AWS**, aprofundando em **Python para automações** e exp
 
 <div align="center">
 
-![Duarte GitHub stats](https://github-readme-stats.vercel.app/api?username=Duarte0&show_icons=true&theme=dracula&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Duarte0&layout=compact&theme=dracula&hide_border=true)
+[![Duarte GitHub stats](https://github-readme-stats.vercel.app/api?username=Duarte0&show_icons=true&theme=dracula&hide_border=true)](https://github.com/Duarte0)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Duarte0&layout=compact&theme=dracula&hide_border=true)](https://github.com/Duarte0)
 
 </div>
 
----
-
-### 🧠 Projetos Recentes
-- 🔍 **Automação de Mensagens DigiSac** – envio automatizado com API  
-- 🧾 **Sistema de Importação de NF-e** – validação e processamento XML  
-- 🌦️ **API de Clima com Kotlin e Spring** – boas práticas e qualidade de código  
-- 🧮 **Análises com Python** – dashboards, ETL e automações  
-- 🛰️ **Projetos em AWS** – aplicações serverless e boas práticas  
-
----
 
 ### 📬 Onde me encontrar
 
