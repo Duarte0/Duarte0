@@ -1,6 +1,6 @@
 # 👋 Olá! Eu sou Guilherme Duarte
 
-**🌱 Engenheiro de Dados | Python | SQL | Automação | ETL | Cloud (AWS) | IA Aplicada**
+**🌱 Cientista de Dados | Python | SQL | Automação | ETL | Cloud (AWS) | IA Aplicada**
 
 Apaixonado por transformar dados em soluções reais. Foco em pipelines de dados, automação inteligente e insights de negócio.  
 Atualmente aprofundando em **AWS (Glue, S3, Lambda)**, **SQL avançado** e aplicações de **NLP/IA** para automações.  
