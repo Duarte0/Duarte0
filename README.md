@@ -6,7 +6,7 @@
 ╚══════════════════════════════════════════════════════════╝
 ```
 
-### Full-Stack Developer · SaaS Builder · AI-First Workflows
+### Full-Stack Developer · AI-First Workflows
 
 *Construindo produtos reais com TypeScript, Python e IA como camada central de engenharia.*
 
@@ -88,6 +88,15 @@ Orquestra GitHub Copilot CLI com Claude Opus/Sonnet e Gemini em modos `plan`, `b
 
 ---
 
+### 🔍 [FollowCheck](https://github.com/Duarte0) — Extensão Chrome para Instagram
+> Descubra quem não te segue de volta no Instagram, sem usar API
+
+Extensão que analisa seguidores e seguidos diretamente pelo navegador, sem autenticação externa ou API do Instagram. Interface simples, resultados instantâneos e zero dependência de terceiros.
+
+`JavaScript` `Chrome Extension` `Manifest V3`
+
+---
+
 ### 📄 [NFe Automator](https://github.com/Duarte0/nfe-automator) — Automação Fiscal
 > Download automático de XMLs de Notas Fiscais via SEFAZ Goiás
 
@@ -99,13 +108,6 @@ Orquestra GitHub Copilot CLI com Claude Opus/Sonnet e Gemini em modos `plan`, `b
 > Envio em lote, modelos de mensagens, dashboard e gestão de clientes
 
 `Python` `Docker` `PostgreSQL`
-
----
-
-### 🤖 [Fôlego Financeiro Bot](https://t.me/folegofinanceiro_bot) — Agente Financeiro no Telegram
-> Substitui planilhas financeiras com um agente conversacional inteligente
-
-`Python` `Asyncio` `PostgreSQL` `NLP` *(Repo privado — disponível sob demanda)*
 
 ---
 
