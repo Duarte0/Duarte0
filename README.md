@@ -1,150 +1,194 @@
 <div align="center">
 
+# Guilherme Duarte
+
+### Engenharia de Dados · IA Aplicada · Automação
+
+Construindo sistemas que transformam processos manuais, dados dispersos e operações contábeis em fluxos automatizados, rastreáveis e inteligentes.
+
+📍 Goiânia, Goiás, Brasil
+
+</div>
+
+---
+
+## Sobre mim
+
+Atuo com **engenharia de dados, desenvolvimento backend e inteligência artificial aplicada a processos reais**.
+
+Meu trabalho está concentrado principalmente na modernização de operações contábeis: integro sistemas, construo pipelines de dados, automatizo tarefas repetitivas e desenvolvo soluções que utilizam IA para interpretar informações, organizar atendimentos e apoiar decisões.
+
+Trabalho desde o entendimento do problema até a implementação e operação da solução, passando por:
+
+* Integração entre APIs e sistemas legados;
+* Pipelines de ingestão, transformação e persistência de dados;
+* Automação de processos contábeis e fiscais;
+* Processamento assíncrono com filas e workers;
+* Classificação e extração de informações com IA;
+* Bancos de dados, observabilidade e infraestrutura com Docker;
+* Desenvolvimento de APIs e interfaces para produtos internos.
+
+Atualmente, estou aprofundando minha trajetória em **Engenharia de Dados**, sem abandonar a experiência prática com backend, automação e desenvolvimento de produtos.
+
+> Minha visão sobre IA é simples: ela gera mais valor quando está integrada ao processo e à arquitetura do sistema — não apenas adicionada como uma funcionalidade isolada.
+
+---
+
+## Tecnologias
+
+```text
+Linguagens          │ Python · SQL · TypeScript · JavaScript
+Dados               │ PostgreSQL · SQL Anywhere · Pandas · ETL/ELT · Modelagem de Dados
+Backend             │ FastAPI · Asyncio · REST APIs · Webhooks · Workers
+Filas e Integrações │ Redis · APIs externas · Processamento orientado a eventos
+Frontend            │ React · Next.js · Vite · Tailwind CSS
+IA Aplicada         │ LLMs · NLP · RAG · OCR · Classificação · Extração de informações
+Infraestrutura      │ Docker · Docker Compose · MinIO · Cloudflare R2
+Visualização        │ Power BI · Plotly · Seaborn
+Ferramentas         │ Git · GitHub · Postman · Codex · Graphify
 ```
-╔══════════════════════════════════════════════════════════╗
-║           GUILHERME DUARTE — AI-DRIVEN ENGINEER          ║
-╚══════════════════════════════════════════════════════════╝
+
+---
+
+## Projetos em destaque
+
+### CAI — Central de Atendimento Inteligente
+
+Sistema desenvolvido para transformar conversas de atendimento contábil em informações estruturadas e acionáveis.
+
+O CAI integra-se ao DigiSac, agrupa mensagens por conversa e utiliza IA para identificar dúvidas, classificar intenções e gerar títulos e descrições padronizadas. O processamento também contempla áudios, imagens, documentos e mensagens citadas.
+
+A arquitetura utiliza filas, workers especializados e persistência de dados para lidar com processamento assíncrono, tentativas automáticas, idempotência e limites dos provedores de IA.
+
+Principais recursos:
+
+* Recebimento de eventos por webhook;
+* Agrupamento e contextualização de conversas;
+* Classificação de solicitações com IA;
+* Transcrição de áudios;
+* Extração de informações de imagens;
+* Processamento assíncrono com Redis;
+* Histórico de classificações e atendimentos;
+* Integração planejada com o Acessórias para criação automática de solicitações.
+
+`Python` `FastAPI` `PostgreSQL` `Redis` `Docker` `Groq` `Webhooks`
+
+---
+
+### Coletor Fiscal — Plataforma de Documentos Fiscais
+
+Projeto em desenvolvimento para centralizar a coleta, o armazenamento e a consulta de documentos fiscais de empresas.
+
+A plataforma está sendo projetada para trabalhar com NF-e por meio da SEFAZ e NFS-e pelo padrão nacional, organizando documentos por empresa e competência.
+
+O projeto também contempla certificados digitais A1, armazenamento de XMLs, auditoria, políticas de retenção e processamento seguro das coletas fiscais.
+
+Escopo planejado:
+
+* Coleta de NF-e e NFS-e;
+* Consulta e download de documentos;
+* Organização por empresa e competência;
+* Armazenamento de XMLs em object storage;
+* Gerenciamento de certificados A1;
+* Controle de usuários e permissões;
+* Retentativas e respeito aos limites dos serviços fiscais;
+* Logs de auditoria e histórico operacional.
+
+`Python` `FastAPI` `PostgreSQL` `MinIO` `Docker` `Alembic`
+
+---
+
+### Automações contábeis e fiscais
+
+Conjunto de soluções desenvolvidas para reduzir tarefas operacionais dentro de escritórios de contabilidade.
+
+Entre as automações estão:
+
+* Consulta de débitos no FGTS Digital;
+* Verificação cadastral de empresas no SINTEGRA;
+* Análise de faturamento, compras, vendas e serviços;
+* Monitoramento do Simples Nacional e RBT12;
+* Identificação de divergências tributárias;
+* Integração entre DigiSac e sistemas contábeis;
+* Geração de relatórios e planilhas para análise operacional.
+
+`Python` `SQL` `Pandas` `APIs` `Selenium` `Excel`
+
+---
+
+### Fôlego Financeiro
+
+Agente financeiro conversacional criado para registrar, categorizar e analisar movimentações financeiras.
+
+O projeto utiliza processamento assíncrono, PostgreSQL e categorização por NLP para transformar mensagens em dados financeiros estruturados.
+
+`Python` `Asyncio` `PostgreSQL` `Docker` `NLP`
+
+---
+
+### TecnoCampo
+
+Projeto de AgriTech do qual participei como cofundador e desenvolvedor.
+
+A solução explorava sensores, coleta de dados agrícolas e análises voltadas ao acompanhamento das condições de cultivo. O projeto foi apresentado na Campus Party.
+
+`Python` `IoT` `Pandas` `Análise de Dados`
+
+---
+
+## Como trabalho
+
+Além do desenvolvimento tradicional, utilizo fluxos de engenharia assistidos por IA para acelerar análise, planejamento, implementação e validação.
+
+Meus projetos costumam ser estruturados a partir de:
+
+```text
+Problema → Requisitos → Arquitetura → Plano → Especificações → Implementação → Testes
 ```
 
-### Full-Stack Developer · AI-First Workflows
-
-*Construindo produtos reais com TypeScript, Python e IA como camada central de engenharia.*
-
-📍 Goiânia, GO, Brasil &nbsp;·&nbsp; 🔭 Licensy & Lamella em produção
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilherme-duarte-03b5b11a0/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/oguiduart_/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:comercial9323@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Duarte0)
-
-</div>
+Utilizo documentação versionada, desenvolvimento orientado por especificações, testes automatizados e ferramentas de navegação de código para manter consistência entre decisões técnicas e implementação.
 
 ---
 
-## 🧠 Sobre mim
+## Atualmente estudando
 
-Sou desenvolvedor full-stack focado em construir produtos SaaS com **IA como diferencial de engenharia** — não como feature pontual, mas como parte estrutural do fluxo de desenvolvimento e dos produtos em si.
+* Engenharia de Dados;
+* Arquiteturas de ETL e ELT;
+* Processamento distribuído com Spark e PySpark;
+* Orquestração de pipelines;
+* Qualidade e observabilidade de dados;
+* Arquiteturas orientadas a eventos;
+* Aplicações de IA em processos empresariais;
+* Integração entre sistemas contábeis.
 
-Trabalho em modo solo-builder, do backend ao frontend, com pipelines agentic, automações e arquitetura orientada a produto. Expositor na Campus Party com startup própria.
-
-> *"AI-driven engineering não é usar ChatGPT para gerar código. É redesenhar o loop de desenvolvimento inteiro."*
-
----
-
-## ⚡ Stack Técnica
-
-```
-Frontend        │  React · TypeScript · Vite · Tailwind CSS · Framer Motion
-Backend         │  Python · FastAPI · Node.js · REST APIs · Asyncio
-Banco de Dados  │  PostgreSQL · AsyncPG · MySQL · Supabase
-Cloud & Infra   │  AWS (S3, Lambda, EC2, RDS) · Cloudflare R2 · Docker · Compose
-AI & Automação  │  Agentic loops · NLP · GitHub Copilot CLI · Claude API · Gemini
-DevOps & Tools  │  Git · GitHub · Postman · APScheduler · Webhooks
-```
-
-<div align="center">
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-
-</div>
+Também curso **Sistemas de Informação no IF Goiano**.
 
 ---
 
-## 🚀 Projetos em Destaque
+## Objetivos
 
-### 🏭 [Licensy](https://github.com/Duarte0) — B2B Environmental Compliance SaaS
-> Plataforma de gestão de licenciamento ambiental para indústrias brasileiras
+Quero continuar evoluindo como **Engenheiro de Dados**, trabalhando em projetos que combinem:
 
-Gerencia o ciclo de vida completo de licenças ambientais com lógica regulatória brasileira (CONAMA 237/97), hierarquias pai-filho, sistema de 6 estados, audit logs imutáveis via PostgreSQL RLS e versionamento de documentos no Cloudflare R2.
+* Dados em escala;
+* Integrações complexas;
+* Automação de processos;
+* Inteligência artificial aplicada;
+* Produtos com impacto operacional mensurável.
 
-`Next.js` `TypeScript` `Python` `FastAPI` `PostgreSQL` `Cloudflare R2` `Docker`
-
----
-
-### 📸 [Lamella](https://github.com/Duarte0) — Premium Photo Delivery SaaS
-> Plataforma de entrega de fotos para fotógrafos profissionais com estética cinematic
-
-Fluxos de galeria com autenticação OTP, favoriting, presigned URLs, upload para R2 e interface premium dark com Framer Motion. Arquitetura feature-first (`src/features/`, `src/shared/`).
-
-`React` `TypeScript` `Vite` `Supabase` `Cloudflare R2` `Stripe` `Framer Motion`
+Tenho interesse especial em oportunidades nas áreas de **Engenharia de Dados, IA aplicada, automação e modernização de processos empresariais**.
 
 ---
 
-### 🤖 [Agentic Dev Loop](https://github.com/Duarte0) — AI-Driven Development Orchestrator
-> Sistema de automação de desenvolvimento com múltiplos modelos de IA em loop
+## Contato
 
-Orquestra GitHub Copilot CLI com Claude Opus/Sonnet e Gemini em modos `plan`, `build`, `specs`, `bugs`, `features` e `refactor`. Issue tracking via YAML front-matter, síntese hierárquica e `IMPLEMENTATION_PLAN.md` como source of record.
+Estou aberto a conversar sobre engenharia de dados, automação, inteligência artificial, produtos para o setor contábil e oportunidades profissionais.
 
-`Shell` `GitHub Copilot CLI` `Claude API` `Gemini` `YAML`
-
----
-
-### 🔍 [FollowCheck](https://github.com/Duarte0) — Extensão Chrome para Instagram
-> Descubra quem não te segue de volta no Instagram, sem usar API
-
-Extensão que analisa seguidores e seguidos diretamente pelo navegador, sem autenticação externa ou API do Instagram. Interface simples, resultados instantâneos e zero dependência de terceiros.
-
-`JavaScript` `Chrome Extension` `Manifest V3`
-
----
-
-### 📄 [NFe Automator](https://github.com/Duarte0/nfe-automator) — Automação Fiscal
-> Download automático de XMLs de Notas Fiscais via SEFAZ Goiás
-
-`Python` `Selenium` `Web Scraping`
-
----
-
-### 💬 [Digisac Automação](https://github.com/Duarte0/automacao-digisac-mensagens) — Mensageria em Lote
-> Envio em lote, modelos de mensagens, dashboard e gestão de clientes
-
-`Python` `Docker` `PostgreSQL`
-
----
-
-> 🔗 Mais projetos em [github.com/Duarte0](https://github.com/Duarte0?tab=repositories)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Duarte0&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true&title_color=a78bfa&icon_color=a78bfa"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Duarte0&layout=compact&theme=dracula&hide_border=true&title_color=a78bfa"/>
-</div>
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Duarte0&theme=dracula&hide_border=true&ring=a78bfa&fire=a78bfa&currStreakLabel=a78bfa"/>
-</div>
-
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Duarte0.Duarte0&color=7c3aed"/>
-</div>
-
----
-
-## 📬 Vamos conversar?
-
-Sempre aberto para trocar ideias sobre **produtos SaaS, IA aplicada, automação, cloud ou oportunidades de colaboração**.
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilherme-duarte-03b5b11a0/)
-[![Email](https://img.shields.io/badge/Email-Fale%20comigo-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:comercial9323@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-oguiduart__-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/oguiduart_/)
-
-</div>
+[GitHub](https://github.com/Duarte0) · [LinkedIn](COLOQUE-SEU-LINK-AQUI)
 
 ---
 
 <div align="center">
-<sub>Built with AI-driven engineering · Goiânia, Brasil 🇧🇷</sub>
+
+**Transformando processos reais em sistemas orientados por dados.**
+
 </div>
