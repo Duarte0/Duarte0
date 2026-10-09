@@ -4,7 +4,7 @@
 
 ### Engenharia de Software · Automação · Dados e IA aplicada
 
-Desenvolvo sistemas que conectam dados, integrações e processos de negócio — com foco em soluções práticas, confiáveis e rastreáveis.
+Construo sistemas para resolver problemas operacionais reais — conectando software, dados e processos de negócio.
 
 📍 Goiânia, Goiás, Brasil
 
@@ -14,45 +14,59 @@ Desenvolvo sistemas que conectam dados, integrações e processos de negócio �
 
 ## Sobre mim
 
-Sou engenheiro de software e trabalho com desenvolvimento de sistemas, automação de processos e integração de dados. Minha experiência está próxima de problemas operacionais reais, especialmente em rotinas fiscais e contábeis.
+Sou engenheiro de software e atuo com desenvolvimento de sistemas, automação e integração de dados. Tenho experiência próxima de operações fiscais e contábeis, transformando rotinas manuais em processos mais confiáveis, rastreáveis e fáceis de operar.
 
-Gosto de atuar do entendimento do problema à implementação: desenhar APIs, integrar serviços, processar dados e construir fluxos que possam ser observados e mantidos. Tenho explorado também o uso de IA para interpretar informações e apoiar processos — sem tratar o modelo como substituto da arquitetura ou das regras do sistema.
+Trabalho principalmente com Python, TypeScript, APIs, bancos de dados e processamento assíncrono. Também aplico IA em tarefas bem delimitadas, mantendo regras de negócio e decisões críticas sob controle da aplicação.
 
-### Tecnologias
-
-`Python` · `TypeScript` · `React` · `FastAPI` · `PostgreSQL` · `Docker` · `MinIO` · `APIs` · `Filas` · `IA aplicada`
-
----
-
-## Projetos em destaque
+## Projetos
 
 ### [CAI — Analisador de conversas DigiSac](https://github.com/Duarte0/CAI---CENTRAL-DE-ATENDIMENTO-INTELIGENTE)
 
-Sistema que recebe eventos da DigiSac, reconstrói conversas e classifica a intenção do cliente. Processa texto, áudio e imagem com workers assíncronos e mantém resultados e estado operacional auditáveis no PostgreSQL.
+Analisa conversas de atendimento e classifica a intenção do cliente. Processa texto, áudio e imagem com workers assíncronos, persistência no PostgreSQL e mecanismos de idempotência e retry. O sistema classifica e disponibiliza resultados; não responde ao cliente nem abre chamados.
 
-O projeto prioriza idempotência, retries duráveis e separação clara entre a análise feita por IA e as regras determinísticas da aplicação.
+`Python` · `FastAPI` · `PostgreSQL` · `IA` · `Webhooks`
 
-`Python` · `FastAPI` · `PostgreSQL` · `Docker` · `IA` · `Webhooks`
+### Plataforma de automação fiscal *(projeto profissional privado)*
+
+Automatiza a captura e organização de documentos NF-e, NFS-e e CT-e, com geração de documentos auxiliares, exportação para sistemas contábeis, monitoramento e auditoria.
+
+`Python` · `FastAPI` · `PostgreSQL` · `MinIO` · `Docker`
+
+### Automações contábeis e fiscais
+
+Soluções para reduzir trabalho operacional, como consultas cadastrais e fiscais, análises de movimentação e geração de relatórios para apoiar a rotina contábil.
+
+`Python` · `SQL` · `Pandas` · `APIs`
+
+### Fôlego Financeiro *(projeto pessoal privado)*
+
+Bot de Telegram que registra despesas descritas em linguagem natural, organiza categorias e parcelas e gera relatórios e lembretes.
+
+`Python` · `PostgreSQL` · `Telegram`
 
 ### [AgroJud Radar](https://github.com/Duarte0/AgroJud)
 
-Plataforma para monitoramento de processos de interesse do produtor rural. Inclui API operacional, jobs persistentes e interface de consulta, com ambientes de demonstração isolados.
+Plataforma para acompanhar processos de interesse do produtor rural, com API, jobs persistentes e interface de consulta. A integração com dados externos reais depende da validação das fontes necessárias.
 
-O acesso a dados externos reais permanece condicionado à validação das fontes e capacidades necessárias.
+`Python` · `PostgreSQL` · `FastAPI` · `React`
 
-`Python` · `PostgreSQL` · `FastAPI` · `React` · `Docker`
+### TecnoCampo *(projeto anterior)*
 
----
-
-## Como trabalho
-
-- Transformo processos manuais em fluxos claros e rastreáveis.
-- Dou atenção a idempotência, tratamento de falhas e consistência dos dados.
-- Uso IA quando ela resolve uma parte bem delimitada do problema.
-- Prefiro sistemas documentados, observáveis e simples de operar.
+Experiência como cofundador e desenvolvedor em um projeto de AgriTech com sensores e análise de dados agrícolas, apresentado na Campus Party.
 
 ---
 
-## Contato
+## Tecnologias
+
+`Python` · `TypeScript` · `React` · `FastAPI` · `PostgreSQL` · `Docker` · `MinIO` · `APIs` · `Filas` · `IA aplicada`
+
+## GitHub em dados
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Duarte0&show_icons=true&theme=transparent&locale=pt-br&hide_border=true" alt="Estatísticas públicas do GitHub de Guilherme" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Duarte0&layout=compact&langs_count=6&theme=transparent&hide_border=true" alt="Linguagens mais usadas nos repositórios públicos de Guilherme" />
+</p>
+
+---
 
 [GitHub](https://github.com/Duarte0)
